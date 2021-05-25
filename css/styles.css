@@ -1,153 +1,156 @@
-
-    @media screen and (max-width:600px){
-        html {
-            margin: 0px 0px;
-        }
-        .vcard {
-            max-width: 100%;
-            width:100% ;
-        }
+@media screen and (max-width:600px) {
+    html {
+        margin: 0px 0px;
     }
-    @media screen and (min-width:1024px){
-        html {
-            width: 1024px;
-        }
-
-        .vcard {
-            width: 100%;
-            max-width: 100%;
-            margin: 0px 0px;
-            width: 60vw;
-            padding: 0px 30px;
-            margin: 50px auto;
-        }
+    .vcard {
+        max-width: 100%;
+        width: 100%;
     }
+}
 
-    .title {
-        margin: 50px 0px;
+@media screen and (min-width:1024px) {
+    html {
+        width: 1024px;
     }
+    .vcard {
+        width: 100%;
+        max-width: 100%;
+        margin: 0px 0px;
+        width: 60vw;
+        padding: 0px 30px;
+        margin: 50px auto;
+    }
+}
 
-        .title span{
-            color: black;
-            font-weight: 600;
-        }
-        h1 {
-            margin: 10px 0px;
-            font-size:35px;
-            font-weight: 200;
-        }
+.row .bio p {
+    margin-bottom: 10px;
+}
 
-        html {
-            margin: 0px auto;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 200;
-            color: whitesmoke
-        }
+.title {
+    margin: 50px 0px;
+}
 
-        .vcard {
-            padding: 15px 30px;
-            box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.4);
-            box-sizing: border-box;
-            border: solid 3px linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
-            border-radius: 35px;
-            background: #df8f7b;
-            background: -webkit-linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
-            background: linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
-        }
+.bio span {
+    color: white;
+}
 
-        header {
-            text-align: center;
-            font-weight: 400;
-        }
+h1 {
+    margin: 10px 0px;
+    font-size: 35px;
+    font-weight: 200;
+}
 
-        figure img {
+html {
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: whitesmoke
+}
 
-            width: 300px;
-            border-radius: 40px;
-            box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.2);
-        }
+.vcard {
+    padding: 15px 30px;
+    box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border: solid 3px linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
+    border-radius: 35px;
+    background: #df8f7b;
+    background: -webkit-linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
+    background: linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
+}
 
-        .icon img {
-            width: 60px;
-        }
+header {
+    text-align: center;
+    font-weight: 400;
+}
 
-        .main_pic {
-            display: flex;
-            justify-content: center;
-            margin: 20px auto;
-        }
+.icon img {
+    width: 60px;
+}
 
-        .icon i {
-            color: #000;
-            font-size: 3em;
-        }
+.main_pic {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
 
+figure img {
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    border: solid 2px #00000086;
+}
 
-        .icon i:hover {
-            color: whitesmoke;
-        }
+.icon i {
+    color: #000;
+    font-size: 3em;
+}
 
-        .square:nth-child(1) {
-            border: solid 2px #2ea7f2;
-        }
+.icon i:hover {
+    color: whitesmoke;
+}
 
-        .square:nth-child(2) {
-            border: solid 2px #f28705;
-        }
+.square:nth-child(1) {
+    border: solid 2px #2ea7f2;
+}
 
-        .square:nth-child(3) {
-            border: solid 2px #F05EF2;
-        }
+.square:nth-child(2) {
+    border: solid 2px #f28705;
+}
 
-        .square:nth-child(1):hover {
-            background:#2ea7f2;
-        }
+.square:nth-child(3) {
+    border: solid 2px #F05EF2;
+}
 
-        .square:nth-child(2):hover {
-            background:#f28705;
-        }
+.square:nth-child(1):hover {
+    background: #2ea7f2;
+}
 
-        .square:nth-child(3):hover {
-            background:#F05EF2;
-        }
+.square:nth-child(2):hover {
+    background: #f28705;
+}
 
-        .square {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-sizing: border-box;
-            padding: 10px 10px;
-            width: 150px;
-            height: 150px;
-            border: solid 2px ;
-            border-radius: 20px;
-            text-align: center;
-            box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
-            
-        }
+.square:nth-child(3):hover {
+    background: #F05EF2;
+}
 
-        .square p{
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 1.5em;
-        }
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 150px;
+    height: 150px;
+    border: solid 2px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
+}
 
-        .row {
-            margin: 2rem 0rem;
-            padding: 3em 0rem;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-        }
+.square p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5em;
+}
 
-        .bio p{
-            margin: 0px 0px;
-        }
-        .bio {
-            color: #000000;
-            padding: 0px 3em;
-            font-size: 40px;
-            font-weight: 200;
-            text-align: center;
-        }
+.row {
+    margin: 2rem 0rem;
+    padding: 3em 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.bio p {
+    margin: 0px 0px;
+}
+
+.bio {
+    color: #000000;
+    padding: 0px 3em;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
