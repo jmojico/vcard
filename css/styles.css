@@ -51,7 +51,6 @@ html {
     padding: 15px 30px;
     box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
-    border: solid 3px linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
     border-radius: 35px;
     background: #df8f7b;
     background: -webkit-linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
