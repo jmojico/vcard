@@ -1,29 +1,42 @@
 @media screen and (max-width:600px) {
-    html {
+    html,
+    body {
         margin: 0px 0px;
+        font-size: 12px;
     }
     .vcard {
-        max-width: 100%;
-        width: 100%;
+        border-radius: 0px;
+        padding: 0px 0px;
+    }
+    .row:nth-child(2) {
+        flex-direction: column;
     }
 }
 
 @media screen and (min-width:1024px) {
     html {
         width: 1024px;
+        font-size: 12px;
     }
     .vcard {
         width: 100%;
         max-width: 100%;
-        margin: 0px 0px;
         width: 60vw;
         padding: 0px 30px;
         margin: 50px auto;
+        border-radius: 35px;
     }
 }
 
+html {
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: whitesmoke
+}
+
 .row .bio p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -36,22 +49,14 @@
 
 h1 {
     margin: 10px 0px;
-    font-size: 35px;
+    font-size: 3rem;
     font-weight: 200;
-}
-
-html {
-    margin: 0px auto;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    color: whitesmoke
 }
 
 .vcard {
     padding: 15px 30px;
     box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
-    border-radius: 35px;
     background: #df8f7b;
     background: -webkit-linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
     background: linear-gradient(180deg, #0fa2e6d0 25%, #1a2ee2);
@@ -73,11 +78,12 @@ header {
 }
 
 figure img {
-    width: 250px;
+    width: 15rem;
     border-radius: 20px;
     box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.2);
     opacity: 0.8;
     border: solid 2px #00000086;
+    margin: 5rem 0;
 }
 
 .icon i {
@@ -118,9 +124,10 @@ figure img {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding: 10px 10px;
     width: 150px;
     height: 150px;
+    padding: 10px 10px;
+    margin: 20px;
     border: solid 2px;
     border-radius: 20px;
     text-align: center;
@@ -129,7 +136,7 @@ figure img {
 
 .square p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 1.5em;
 }
 
@@ -148,8 +155,7 @@ figure img {
 
 .bio {
     color: #000000;
-    padding: 0px 3em;
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: 200;
     text-align: center;
 }
