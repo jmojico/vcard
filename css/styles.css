@@ -78,7 +78,7 @@ header {
 }
 
 figure img {
-    width: 15rem;
+    width: 18rem;
     border-radius: 20px;
     box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.2);
     opacity: 0.8;
@@ -136,7 +136,7 @@ figure img {
 
 .square p {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.5em;
 }
 
